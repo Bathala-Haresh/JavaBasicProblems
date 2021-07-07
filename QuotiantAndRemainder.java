@@ -21,8 +21,8 @@ public class QuotientAndRemainder {
 		int divisor=sc.nextInt();
 
 
-		int quotient = dividend / divisor;
-		int remainder = dividend % divisor;
+		double quotient = dividend / divisor;
+		double remainder = dividend % divisor;
 
 		System.out.println("Quotient = " + quotient);
 		System.out.println("Remainder = " + remainder);
